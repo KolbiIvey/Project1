@@ -26,5 +26,10 @@ body {
     align-items: center;
 }
 
+#win {
+    visibility: hidden;
+}
 
-  
+#Lost {
+    visibility: hidden;
+}

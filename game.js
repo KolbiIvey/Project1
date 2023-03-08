@@ -35,8 +35,7 @@ document.querySelector('#spinButton').addEventListener('click', spin);
   }
 
    function spin() {
-    wonEl.style.visibility = 'hidden';
-    lostEl.style.visibility = 'hidden';
+    
 //Spin needs to make the spin button cyle through the windowValues array in each window
 for (let i = 0; i < slotWindowEls.length; i++){
          let randomNum = WINDOW_VALUES[Math.floor(Math.random() * WINDOW_VALUES.length)]
@@ -49,8 +48,8 @@ for (let i = 0; i < slotWindowEls.length; i++){
 //betAmount should take 10$ from players current balance before they can spin
 // if player wins player gets original 10$ back, plus an extra 10$
 //if player loses they lose the 10$ all together
-   
-     let newBet = balance - 10;
+balanceEl.innerText = `Current Balance: ${balance}`
+let newBet = balance - 10;
      console.log(newBet)
   }
       
@@ -61,6 +60,7 @@ for (let i = 0; i < slotWindowEls.length; i++){
           let s3 = slotWindowEls[2].innerText;
           if (s1 === s2 && s1 === s3) {
              wonEl.style.visibility = 'visible';
+            
             //  wonEl.innerText = `You won ${}`
              return;
           }else {
