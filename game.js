@@ -1,5 +1,5 @@
   /*----- constants -----*/
-const WINDOW_VALUES = [2, 8, 5,]
+const WINDOW_VALUES = [7, '$', '#']
 
   /*----- state variables -----*/
 let balance = 100;
@@ -13,29 +13,24 @@ const lostEl = document.querySelector('#Lost')
 
   /*----- event listeners -----*/
  document.querySelector('#betButton').addEventListener('click', spin)
-// document.querySelector('#cashOutButton').addEventListener('click', cashingOut)
+ document.querySelector('#cashOutButton').addEventListener('click', reset)
 
   /*----- functions -----*/
   init();
 
-
-   function init() {
-     balance = 100
-     balanceEl.innerText = `Current Balance: $${balance}`
-     render();
+function init() {
+     balanceEl.innerText = `Current Balance: $${balance}`;
+     balance = 100;
+     slotWindowEls.innerText = 'hello'
   }
 
-   function spin() {
-    
-//Spin needs to make the spin button cyle through the windowValues array in each window
-for (let i = 0; i < slotWindowEls.length; i++){
+function spin() { 
+    for (let i = 0; i < slotWindowEls.length; i++){
          let randomNum = WINDOW_VALUES[Math.floor(Math.random() * WINDOW_VALUES.length)]
          slotWindowEls[i].innerText = randomNum  
      } 
      winLoss();
      youLose();
-     wonEl.style.visibilty = 'hidden';
-     lostEl.style.visibilty = 'hidden';
 }
 
 function winLoss() {
@@ -44,29 +39,23 @@ function winLoss() {
     let s3 = slotWindowEls[2].innerText;
     if (s1 === s2 && s1 === s3) {
         balance += 15;
-             wonEl.innerText = `YOU WIN! Congrats your new balance is $${balance}`;
-             wonEl.style.visibilty = 'visible';
-    } else {
+             wonEl.innerText = `YOU WIN! Congrats you've won $15`;
+             wonEl.style.visibility = 'visible';
+            } else {
         balance -= 10
+        wonEl.style.visibility = 'hidden';
     }
     balanceEl.innerText = `Current Balance: $${balance}`
 }
 
-
-function cashingOut() {
-}
-
 function youLose() {
     if (balance <= 0) {
-        lostEl.style.visibilty = 'visible';
-    } else {
-        return;
+        lostEl.style.visibility = 'visible';
     }
 }
-//cashingOut need to essentially take the players current balance and cash it out
-//(end the game and reset)
 
-  function render() {
-    
-    
-  }
+function reset() {
+    init();
+    wonEl.style.visibility = 'hidden';
+    lostEl.style.visibility = 'hidden';
+}

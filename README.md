@@ -1,4 +1,4 @@
-# Project1
+# Simple Slots!
 
 
                            //PSUEDO CODE

@@ -6,7 +6,7 @@
     height: 100vh;
     padding: 20px;
     background-color: #1105ef72;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
 
@@ -21,10 +21,9 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #ccc;
-    border-radius: 8px;
     overflow: hidden;
     margin-top: 40px;
+    margin-bottom: 10px;
   }
 
   .slotWindow {
@@ -32,6 +31,14 @@ h1 {
     height: 150px;
     margin: 0 20px;
     position: relative;
+  }
+
+  #slotWindow1, #slotWindow2, 
+  #slotWindow3{
+    padding: 40px;
+    width: 5%;
+    
+    
   }
 
 
@@ -54,11 +61,6 @@ h1 {
   text-align: center;
 }
 
- /* #win.active,
-#lost.active {
-  display: block;
-  color: green; 
- }  */
 #betButton,
 #cashOutButton {
   display: flex;
