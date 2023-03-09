@@ -6,7 +6,6 @@ let balance = 100;
 
   /*----- cached elements  -----*/
 const slotWindowEls = Array.from(document.querySelectorAll('.slotMachine'));
-const betBtnEl = document.querySelector('#betButton')
 const balanceEl = document.querySelector('#balance')
 const wonEl = document.querySelector('#win')
 const lostEl = document.querySelector('#Lost')

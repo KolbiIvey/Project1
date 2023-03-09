@@ -4,7 +4,7 @@
 #                              Description
 
 Welcome to Simple Slots! A game of, well you guessed it, simple slots.
-In this game you have a starting balance of 100$, and the only goal is 
+In this game you have a starting balance of $100, and the only goal is 
 times you can win before you run out of money! To spin the slots you
 simply slap that Bet $10 button and it will automatically tak $10 from 
 your current Balance. If all three slots match, you get $15 back into your
@@ -36,11 +36,12 @@ trying your luck! Have fun!
 Here is the link to my game! Please enjoy!
 https://kolbiivey.github.io/Project1-SimpleSlots/
 
+To start playing just hit the button labeled "Bet $10"
+If you run out of money and lose, press "Reset" to start playing again.
 
 
 #                                   Next Steps
-I plan on eventually coming back to this game and updating the entire thing.
-I plan to add images instead of numbers for my slots to cycle through, 
-I also plan on adding more functionality like you would see in a real life 
-slot machine such as inserting your money first and then betting on a certain 
-matchup or row. Overall I plan to Revamp the game but still try and keep it simple.
+- Update the games logic to include different bet amounts
+- Update logic to allow the player to add whatever starting amount they want
+- Re-add Spin button with appropriate logic
+- Add animations to the slot windows
