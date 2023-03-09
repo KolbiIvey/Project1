@@ -19,6 +19,8 @@ trying your luck! Have fun!
 
     
 ![start screen](/screenshots/Starting-screen.png)
+![You Win](/screenshots/You-win.png)
+![You Lose](/screenshots/You-lose.png)
 
 
 
@@ -31,17 +33,14 @@ trying your luck! Have fun!
 
 
 #                                Getting Started
-    
-
-
-
-
+Here is the link to my game! Please enjoy!
+https://kolbiivey.github.io/Project1-SimpleSlots/
 
 
 
 #                                   Next Steps
-        I plan on eventually coming back to this game and updating the entire thing.
-        I plan to add images instead of numbers for my slots to cycle through, 
-        I also plan on adding more functionality like you would see in a real life 
-        slot machine such as inserting your money first and then betting on a certain 
-        matchup or row. Overall I plan to Revamp the game but still try and keep it simple.
+I plan on eventually coming back to this game and updating the entire thing.
+I plan to add images instead of numbers for my slots to cycle through, 
+I also plan on adding more functionality like you would see in a real life 
+slot machine such as inserting your money first and then betting on a certain 
+matchup or row. Overall I plan to Revamp the game but still try and keep it simple.
