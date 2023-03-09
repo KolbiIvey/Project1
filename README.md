@@ -14,6 +14,14 @@
     trying your luck! Have fun! 
 
 
+
+#                               Screenshots
+
+    
+![start screen](/screenshots/)
+
+
+
 #                               Technologies Used
 
     In this project I have use HTML, CSS, and Vanilla Javascript
