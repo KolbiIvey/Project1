@@ -23,8 +23,10 @@
 
 
 #                               Technologies Used
-
-    In this project I have use HTML, CSS, and Vanilla Javascript
+ For this project I used the following technologies:
+    -HTML
+    -CSS
+    -JavaScript
 
 
 
