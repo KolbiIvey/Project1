@@ -19,9 +19,11 @@ const lostEl = document.querySelector('#Lost')
   init();
 
 function init() {
+    balance = 100;
      balanceEl.innerText = `Current Balance: $${balance}`;
-     balance = 100;
-     slotWindowEls.innerText = 'hello'
+     for (let i = 0; i < slotWindowEls.length; i++){
+          slotWindowEls[i].innerText = '0';
+     }
   }
 
 function spin() { 
