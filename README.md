@@ -18,7 +18,7 @@ trying your luck! Have fun!
 #                               Screenshots
 
     
-![start screen](/img/Starting-screen.png)
+![start screen](/screenshots/Starting-screen.png)
 
 
 
