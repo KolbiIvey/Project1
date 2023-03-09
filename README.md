@@ -18,7 +18,7 @@
 #                               Screenshots
 
     
-![start screen](/screenshots/)
+![start screen](/img/Starting-screen.png)
 
 
 
