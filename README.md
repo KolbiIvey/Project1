@@ -1,3 +1,6 @@
+[![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
+
+
 #                             Simple Slots!
 
 
@@ -45,3 +48,4 @@ If you run out of money and lose, press "Reset" to start playing again.
 - Update logic to allow the player to add whatever starting amount they want
 - Re-add Spin button with appropriate logic
 - Add animations to the slot windows
+
