@@ -59,6 +59,7 @@ function youLose() {
 
 function reset() {
    init();
+   betButtonEl.disabled = false;
    wonEl.style.visibility = 'hidden';
    lostEl.style.visibility = 'hidden';
 }
