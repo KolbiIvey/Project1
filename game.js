@@ -6,16 +6,16 @@ let balance = 100;
 
   /*----- cached elements  -----*/
 const slotWindowEls = Array.from(document.querySelectorAll('.slotMachine'));
-const balanceEl = document.querySelector('#balance')
-const wonEl = document.querySelector('#win')
-const lostEl = document.querySelector('#Lost')
+const balanceEl = document.querySelector('#balance');
+const wonEl = document.querySelector('#win');
+const lostEl = document.querySelector('#Lost');
 
   /*----- event listeners -----*/
- document.querySelector('#betButton').addEventListener('click', spin)
- document.querySelector('#cashOutButton').addEventListener('click', reset)
+document.querySelector('#betButton').addEventListener('click', spin);
+document.querySelector('#cashOutButton').addEventListener('click', reset);
 
   /*----- functions -----*/
-  init();
+init();
 
 function init() {
     balance = 100;
@@ -27,8 +27,8 @@ function init() {
 
 function spin() { 
     for (let i = 0; i < slotWindowEls.length; i++){
-         let randomNum = WINDOW_VALUES[Math.floor(Math.random() * WINDOW_VALUES.length)]
-         slotWindowEls[i].innerText = randomNum  
+         let randomNum = WINDOW_VALUES[Math.floor(Math.random() * WINDOW_VALUES.length)];
+         slotWindowEls[i].innerText = randomNum;  
      } 
      winLoss();
      youLose();
@@ -43,10 +43,10 @@ function winLoss() {
              wonEl.innerText = `YOU WIN! Congrats you've won $15`;
              wonEl.style.visibility = 'visible';
             } else {
-        balance -= 10
+        balance -= 10;
         wonEl.style.visibility = 'hidden';
     }
-    balanceEl.innerText = `Current Balance: $${balance}`
+    balanceEl.innerText = `Current Balance: $${balance}`;
 }
 
 function youLose() {
