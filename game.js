@@ -9,6 +9,7 @@ const slotWindowEls = Array.from(document.querySelectorAll('.slotMachine'));
 const balanceEl = document.querySelector('#balance');
 const wonEl = document.querySelector('#win');
 const lostEl = document.querySelector('#Lost');
+const betButtonEl = document.querySelector('#betButton');
 
   /*----- event listeners -----*/
 document.querySelector('#betButton').addEventListener('click', spin);
@@ -51,7 +52,8 @@ function youWin() {
 
 function youLose() {
     if (balance <= 0) {
-        lostEl.style.visibility = 'visible';
+       betButtonEl.disabled = true;
+       lostEl.style.visibility = 'visible';
     }
 }
 

@@ -111,3 +111,9 @@ h1 {
 #cashOutButton:hover {
   background-color: pink;
 }
+
+@media screen and (max-width: 390px) {
+  body {
+    background-color: red;
+  }
+}
