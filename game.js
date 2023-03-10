@@ -30,11 +30,11 @@ function spin() {
          let randomNum = WINDOW_VALUES[Math.floor(Math.random() * WINDOW_VALUES.length)];
          slotWindowEls[i].innerText = randomNum;  
      } 
-     winLoss();
+     youWin();
      youLose();
 }
 
-function winLoss() {
+function youWin() {
     let s1 = slotWindowEls[0].innerText;
     let s2 = slotWindowEls[1].innerText;
     let s3 = slotWindowEls[2].innerText;
@@ -56,7 +56,7 @@ function youLose() {
 }
 
 function reset() {
-    init();
-    wonEl.style.visibility = 'hidden';
-    lostEl.style.visibility = 'hidden';
+   init();
+   wonEl.style.visibility = 'hidden';
+   lostEl.style.visibility = 'hidden';
 }

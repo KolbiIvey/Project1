@@ -24,7 +24,7 @@ trying your luck! Have fun!
 #                               Screenshots
 
     
-![start screen](/screenshots/Starting-screen.png)
+![start screen](/screenshots/Start-screen.png)
 ![You Win](/screenshots/You-win.png)
 ![You Lose](/screenshots/You-lose.png)
 
