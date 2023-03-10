@@ -2,14 +2,14 @@
     box-sizing: border-box;
   }
 
-  body {
+body {
     height: 100vh;
     padding: 20px;
     background-color: #36363ab1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
-  #slotFace {
+#slotFace {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,20 +22,20 @@
 
 
 h1 {
-  font-family: cursive;
-  font-size: 60px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 2%;
-  background-color: deeppink;
-  border: 8px;
-  border-style: solid;
-  border-radius: 30px;
-  width: 350px;
+   font-family: cursive;
+   font-size: 60px;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 2%;
+   background-color: deeppink;
+   border: 8px;
+   border-style: solid;
+   border-radius: 30px;
+   width: 350px;
     
   }
 
-  .slotWindows {
+.slotWindows {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,8 +47,8 @@ h1 {
     margin: 0 20px;
   }
 
-  #slotWindow1, #slotWindow2, 
-  #slotWindow3{
+#slotWindow1, #slotWindow2, 
+#slotWindow3{
     padding: 30px;
     display: flex;
     justify-content: center;
@@ -63,7 +63,7 @@ h1 {
   }
 
 
-  #balance {
+#balance {
     font-size: 35px;
     display: flex;
     justify-content: center;
@@ -74,7 +74,7 @@ h1 {
   }
 
   
-    #win, #Lost {
+#win, #Lost {
   visibility: hidden; 
   display: flex;
   justify-content: center;
@@ -112,7 +112,7 @@ h1 {
   background-color: pink;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
   body {
     background-color: red;
   }
